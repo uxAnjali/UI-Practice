@@ -1,0 +1,47 @@
+.parent {
+    border: 2px solid black;
+    background-color: red;
+
+}
+.child {
+    height: 150px;
+    width: 100px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color:chartreuse;
+}
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+
+.image{
+    position: relative;
+    height: 200px; 
+    background-image: url(https://images.unsplash.com/photo-1500622944204-b135684e99fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+    background-size:cover;
+    background-position: center;
+    overflow:hidden;
+}
+
+.hover{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0,0,0,0.5);
+    transition: all 0.5s ease-in;
+    transition: translateY(50%);
+}
+
+.hover1{
+    color:blue;
+    text-align: center;
+}
+
+.image:hover .hover{
+    transform: translateY(0%);
+}
