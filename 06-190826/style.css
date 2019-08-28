@@ -1,0 +1,36 @@
+.navigat {
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    background-color: #263238;
+    top: 0;
+    left: 0;
+}
+/*.navbar .logo img {
+    max-width: 70px;
+    margin: auto;
+    padding: 10px 0px;
+    
+}*/
+.navigat .nav{
+    
+    color:chartreuse;
+    text-align: center;
+    float: left;
+    width: 75%;
+} 
+
+.navigat .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.navigat .nav ul li {
+    display: inline-block;
+}
+
+
+
+
